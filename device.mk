@@ -41,7 +41,7 @@ $(call soong_config_set,samsungCameraVars,extra_ids,52) # ID=52 is telephoto
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/display/display_id_4633128672291735937.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4633128672291735937.xml
 
-# Overlays 
+# Overlays
 PRODUCT_PACKAGES += \
     FrameworkResOverlayDevice \
     SettingsProviderOverlayDevice \
@@ -76,4 +76,4 @@ $(call soong_config_set_bool,wpa_supplicant_8,board_wlan_bcmdhd_sae,true)
 $(call inherit-product, device/samsung/universal9830-common/device-hubble.mk)
 
 # Inherit from the proprietary version
-$(call inherit-product-if-exists, vendor/samsung/z3s/z3s-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/c2s/c2s-vendor.mk)

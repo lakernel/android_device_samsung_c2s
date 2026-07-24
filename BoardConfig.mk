@@ -26,6 +26,9 @@ BOARD_CUSTOM_BT_CONFIG := $(DEVICE_PATH)/bluetooth/libbt_vndcfg.txt
 # Display
 TARGET_SCREEN_DENSITY := 560
 
+#FS
+TARGET_FS_CONFIG_GEN += $(DEVICE_PATH)/config.fs
+
 # Kernel
 TARGET_KERNEL_CONFIG += c2s.config
 
@@ -48,6 +51,10 @@ WIFI_HIDL_FEATURE_AWARE                       := true
 WIFI_HIDL_FEATURE_DUAL_INTERFACE              := true
 WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WPA_SUPPLICANT_VERSION                        := VER_0_8_X
+
+#AVB
+BOARD_AVB_ALGORITHM := SHA256_RSA4096
+BOARD_AVB_KEY_PATH := avb_keys/releasekey.key 
 
 # inherit from the proprietary version
 -include vendor/samsung/c2s/BoardConfigVendor.mk

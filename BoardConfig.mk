@@ -58,3 +58,4 @@ BOARD_AVB_KEY_PATH := avb_keys/releasekey.key
 
 # inherit from the proprietary version
 -include vendor/samsung/c2s/BoardConfigVendor.mk
+-include vendor/extra/product.mk

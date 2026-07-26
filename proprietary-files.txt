@@ -123,7 +123,6 @@ vendor/lib/libbeautyshot.arcsoft.so
 vendor/lib/libhandgesture.arcsoft.so
 vendor/lib/libhigh_dynamic_range_bokeh.so
 vendor/lib/libmpbase.so
-vendor/lib/libsensorlistener.so
 vendor/lib/libsnap_vndk.so
 vendor/lib/libuniplugin.so
 vendor/lib64/libarcsoft_superresolution_bokeh.so

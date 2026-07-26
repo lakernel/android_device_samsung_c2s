@@ -42,8 +42,8 @@ vendor/lib64/libexynoscamera_vpl_plugin.so
 vendor/lib/libimgproc_sw.unifunc.so
 vendor/lib64/libimgproc_sw.unifunc.so
 
-#vendor/bin/hw/vendor.samsung.hardware.camera.provider@4.0-service_64
-#vendor/etc/init/vendor.samsung.hardware.camera.provider@4.0-service_64.rc
+vendor/bin/hw/vendor.samsung.hardware.camera.provider@4.0-service_64
+vendor/etc/init/vendor.samsung.hardware.camera.provider@4.0-service_64.rc
 vendor/etc/permissions/android.hardware.camera.autofocus.xml
 vendor/etc/permissions/android.hardware.camera.concurrent.xml
 vendor/etc/permissions/android.hardware.camera.flash-autofocus.xml
@@ -86,7 +86,7 @@ vendor/lib64/camera.device@3.3-impl.so
 vendor/lib64/camera.device@3.4-impl.so
 vendor/lib64/libFacePreProcessing.camera.samsung.so
 vendor/lib64/libtensorflowLite.singletake.camera.samsung.so
-#vendor/lib64/vendor.samsung.hardware.camera.provider@4.0-legacy.so
+vendor/lib64/vendor.samsung.hardware.camera.provider@4.0-legacy.so
 vendor/lib64/libOpenCv.camera.samsung.so
 vendor/lib64/libPersonal_core.camera.samsung.so
 vendor/lib64/libRelighting_API.camera.samsung.so
@@ -117,31 +117,21 @@ vendor/lib64/camera.device@3.5-impl.so
 vendor/lib64/libLocalTM_capture_core.camera.samsung.so
 
 vendor/bin/hw/vendor.samsung.hardware.thermal@1.0-service
-#vendor/etc/vintf/manifest/vendor.samsung.hardware.thermal@1.0-manifest.xml
-#vendor/etc/init/vendor.samsung.hardware.thermal@1.0-service.rc
+vendor/etc/init/vendor.samsung.hardware.thermal@1.0-service.rc
 vendor/lib/libarcsoft_superresolution_bokeh.so
 vendor/lib/libbeautyshot.arcsoft.so
 vendor/lib/libhandgesture.arcsoft.so
 vendor/lib/libhigh_dynamic_range_bokeh.so
-#vendor/lib/libhwjsqz.so
 vendor/lib/libmpbase.so
-#vendor/lib/libsensorlistener.so
+vendor/lib/libsensorlistener.so
 vendor/lib/libsnap_vndk.so
-#vendor/lib/libuniapi.so
-#vendor/lib/libuniplugin.so
-#vendor/lib/vendor.samsung.hardware.thermal@1.0.so
+vendor/lib/libuniplugin.so
 vendor/lib64/libarcsoft_superresolution_bokeh.so
-vendor/lib64/libbeautyshot.arcsoft.so
 vendor/lib64/libhandgesture.arcsoft.so
 vendor/lib64/libhigh_dynamic_range_bokeh.so
 vendor/lib64/libhypervintf.so
-#vendor/lib64/libhwjsqz.so
 vendor/lib64/libmpbase.so
-#vendor/lib64/libsensorlistener.so
 vendor/lib64/libsnap_vndk.so
-#vendor/lib64/libuniapi.so
-#vendor/lib64/libuniplugin.so
-#vendor/lib64/vendor.samsung.hardware.thermal@1.0.so
 vendor/lib64/vendor.samsung.hardware.hyper-V2-ndk_platform.so
 
 #vendor/etc/passwd
